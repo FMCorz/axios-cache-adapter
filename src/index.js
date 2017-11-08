@@ -3,7 +3,7 @@ import omit from 'lodash/omit'
 import merge from 'lodash/merge'
 import isFunction from 'lodash/isFunction'
 
-import { key, read } from './cache'
+import { key } from './cache'
 import MemoryStore from './memory'
 import request from './request'
 
